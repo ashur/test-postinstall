@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "postinstall": "cp ./node_modules/@aaashur/test-postinstall/src/.editorconfig ./"
+    "postinstall": "cp ./src/.editorconfig `pwd`"
   },
   "author": "",
   "license": "ISC"
