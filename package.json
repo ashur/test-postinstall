@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-  	"postinstall": "pwd",
+  	"prepare": "pwd",
     "__postinstall": "cp ./src/.editorconfig `pwd`"
   },
   "author": "",
