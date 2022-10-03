@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "postinstall": "cp ./src/.editorconfig `pwd`"
+  	"postinstall": "pwd",
+    "__postinstall": "cp ./src/.editorconfig `pwd`"
   },
   "author": "",
   "license": "ISC"
