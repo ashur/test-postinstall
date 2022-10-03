@@ -1,0 +1,11 @@
+{
+  "name": "@aaashur/test-postinstall",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "cp ./node_modules/@aaashur/test-postinstall/src/.editorconfig"
+  },
+  "author": "",
+  "license": "ISC"
+}
